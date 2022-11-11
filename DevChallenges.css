@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-space {
+    height: 80px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 5;
+}
+.logo-container {
+    width: fit-content;
+    display: flex;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container img {
+    height: 80px;
+}
+.logo-container p {
+    font-size: 1.25rem;
+}
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+.navlink:not(:last-of-type) {
+    margin-right: 20px;
+}
+.navlink:hover {
+    color: aqua;
+}
+
+
+
+section {
+    position: relative;
+    min-height: 500px;
+    width: 100%;
+    background-color: #141414;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.button-0 {
+    margin-right: 20px;
+    color: white;
+}
+.button {
+    padding: 3px 5px 3px 5px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+.text > div > a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+.button-1 {
+    background-color: white;
+    color: black;
+}
+.text { 
+   width: 35vw;
+}
+.text > h1 {
+    font-size: 3.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.space {
+    width: 10vw;
+    height: 100%;
+}
+.image {
+    width: 35vw;
+    height: 100%;
+    background-color: gray;
+}
+
+
+#hungman-img {
+    background-color: none;
+    background-image: url(assets/devchallenges/hungman-m.png);
+    background-size: cover;
+}
+#tictactoe-img {
+    background-color: none;
+    background-image: url(assets/devchallenges/tictactoe.png);
+    background-size: cover;
+}
+#delateChar-img {
+    background-color: none;
+    background-image: url(assets/devchallenges/delateChar.png);
+    background-size: cover;
+}
+#snake-img {
+    background-color: none;
+    background-image: url(assets/devchallenges/snake.png);
+    background-size: cover;
+}
